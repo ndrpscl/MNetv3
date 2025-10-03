@@ -2,7 +2,7 @@ import tensorflow as tf
 from tensorflow.keras.applications import MobileNetV3Small
 from tensorflow.keras import layers, models
 
-NUM_CLASSES = 3
+NUM_CLASSES = 6
 
 base_model = MobileNetV3Small(
     input_shape=(320, 320, 3),
