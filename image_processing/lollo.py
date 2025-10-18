@@ -5,9 +5,9 @@ import albumentations as A
 from sklearn.model_selection import train_test_split
 
 input_dir = "../un/Lollo"
-output_dir = "../pr/Lollo"
-train_dir = os.path.join(output_dir, "train")
-val_dir = os.path.join(output_dir, "val")
+output_dir = "../pr"
+train_dir = os.path.join(output_dir, "train/Lollo")
+val_dir = os.path.join(output_dir, "val/Lollo")
 
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(val_dir, exist_ok=True)
