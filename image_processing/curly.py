@@ -4,8 +4,8 @@ import numpy as np
 import albumentations as A
 from sklearn.model_selection import train_test_split
 
-input_dir = "un/Curly"
-output_dir = "pr/Curly"
+input_dir = "../un/Curly"
+output_dir = "../pr/Curly"
 train_dir = os.path.join(output_dir, "train")
 val_dir = os.path.join(output_dir, "val")
 
