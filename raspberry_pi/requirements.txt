@@ -1,0 +1,6 @@
+ai-edge-litert
+picamera2
+gpiozero
+RPLCD
+numpy
+opencv-python-headless
