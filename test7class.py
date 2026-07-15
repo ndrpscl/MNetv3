@@ -9,7 +9,7 @@ model = tf.keras.models.load_model(
     custom_objects={"preprocess_input": preprocess_input}
 )
 
-class_names = ["Butterhead", "Curly", "Iceberg", "Lollo", "Oak", "Others", "Romaine"]  # adjust if reversed
+class_names = ["Butterhead", "Looseleaf", "Crisphead", "RedLeaf", "Oak", "Others", "Romaine"]  # adjust if reversed
 test_image_path = "test_img/ice1.jpg"
 
 img = cv2.imread(test_image_path)

@@ -4,10 +4,10 @@ import numpy as np
 import albumentations as A
 from sklearn.model_selection import train_test_split
 
-input_dir = "../un/Iceberg"
+input_dir = "../un/Looseleaf"
 output_dir = "../pr"
-train_dir = os.path.join(output_dir, "train/Iceberg")
-val_dir = os.path.join(output_dir, "val/Iceberg")
+train_dir = os.path.join(output_dir, "train/Looseleaf")
+val_dir = os.path.join(output_dir, "val/Looseleaf")
 
 os.makedirs(train_dir, exist_ok=True)
 os.makedirs(val_dir, exist_ok=True)
